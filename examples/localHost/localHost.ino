@@ -1,6 +1,6 @@
 /*
   localHost.ino - This is basic local host example.
-  Created by Yasin Kaya (selengalp), july 9, 2018.
+  Created by Yasin Kaya (selengalp), September 17, 2018.
 */
 
 #include "Sixfab_NBIoT.h"
@@ -37,12 +37,12 @@ void setup() {
   delay(TIMEOUT);
   DEBUG.print("Light: ");DEBUG.print(node.readLux());
   delay(TIMEOUT);
-  
-  //node.connectToOperator();
+  node.connectToOperator();
 
   node.setIPAddress(your_ip);
   node.setPort(your_port);
 
+  node.startUDPService();
   node.sendDataUDP("Hello World from Sixfab Crew");
 }
 // ------------------------------------------------------------------
