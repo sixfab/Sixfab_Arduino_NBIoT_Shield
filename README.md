@@ -1,6 +1,5 @@
-# README ME
-This is Arduino library for [Sixfab Arduino NB-IoT Shield](https://sixfab.com/product/arduino-nb-iot-shield/).
-
+# Sixfab Arduino NBIoT Shield
+This is repository of Arduino library for [Sixfab Arduino NB-IoT Shield](https://sixfab.com/product/arduino-nb-iot-shield/).
 
 # Examples
 ** [localHost](https://github.com/sixfab/Sixfab_Arduino_NBIoT_Library/blob/master/examples/localHost/localHost.ino)   
