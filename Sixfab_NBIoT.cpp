@@ -360,7 +360,7 @@ void SixfabNBIoT::turnOffRelay()
 //
 uint8_t SixfabNBIoT::readUserButton()
 {
-  digitalRead(USER_BUTTON);
+  return digitalRead(USER_BUTTON);
 }
 
 //
